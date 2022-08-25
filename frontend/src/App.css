@@ -1,0 +1,199 @@
+body{
+  background-color: #12323a;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  font-style: italic;
+}
+
+h1{
+  margin-left: 15px;
+}
+.nav-ul li a:hover{
+  color: green;
+}
+.nav-ul li a{
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.nav-ul {
+  background-color: #282c34;
+  text-decoration: none;
+  font-size: calc(10px + 1.5vmin);
+  color: white;
+}
+
+.nav-right{
+  text-align: right;
+}
+.logo{
+  width: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 4px;
+}
+
+
+.signup{ 
+  margin-left: 30%;
+  color: white;
+}
+input[type="text"] {
+  display: block;
+  font-size: 17px;
+  width: 300px;
+  margin: 25px;
+  padding: 10px;
+  border: 1px solid #282c34;
+}
+input[type="email"] {
+  display: block;
+  font-size: 17px;
+  width: 300px;
+  margin: 25px;
+  padding: 10px;
+  border: 1px solid #282c34;
+}
+input[type="password"] {
+  display: block;
+  font-size: 17px;
+  width: 300px;
+  margin: 25px;
+  padding: 10px;
+  border: 1px solid #282c34;
+}
+
+.app-button{
+  background-color:white;
+  margin: 25px;
+  width: 150px;
+  height: 50px;
+  border: 1px solid skyblue;
+  cursor: pointer;
+  font: 17px bolder;
+}
+.app-button:hover{
+ background-color: green;
+ color: white;
+ /* box-shadow: #282c34; */
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #282c34;
+  color: white;
+}
+
+.invalid-msg{
+  color: red;
+  margin-top: -20px;
+}
+
+.product-list{
+  text-align: center;
+  list-style: none;
+  margin-top: 15px;
+  color: white;
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 5px;
+  width: 150px;
+}
+.product-list ul{
+  margin: 0;
+}
+
+.del-button {
+  color: black;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.del-button:hover{
+  background-color: red;
+  margin: 10px 10px;
+  border: 50%;
+  color: white;
+  font-size: large;
+
+}
+
+.update-btn{
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  
+  text-rendering: auto;
+  color: white;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: green;
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  /* border-style: outset; */
+  border-color: buttonborder;
+  border-image: initial;
+  cursor: pointer;
+  font-style: normal;
+}
+
+.update-btn:hover{
+  background-color: rgb(9, 30, 213);
+  margin: 10px 10px;
+  border: 50%;
+  /* color: white; */
+  font-size: large;
+  border: 2px solid black;
+}
+
+.search-product-box {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  font-size: 17px;
+}
+
+.profile{
+  color: white;
+}
